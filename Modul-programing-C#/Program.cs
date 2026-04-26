@@ -67,37 +67,37 @@ public static class Programm
 {
     static void Main(string[] args)
     {
-        //int[] fibonachi = new int[8] { 0, 1, 1, 2, 3, 5, 8, 13 };
-        //string[] month = new string[12]
-        //{
-        //    "January",
-        //    "February",
-        //    "March",
-        //    "April",
-        //    "May",
-        //    "June",
-        //    "July",
-        //    "August",
-        //    "September",
-        //    "October",
-        //    "November",
-        //    "December"
-        //};
-        //int[,] dobleArray = new int[3,3]
-        //{
+        int[] fibonachi = new int[8] { 0, 1, 1, 2, 3, 5, 8, 13 };
+        string[] month = new string[12]
+        {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        };
+        int[,] dobleArray = new int[3, 3]
+        {
 
-        //    {(int)Math.Pow(2,1), (int)Math.Pow(3,1), (int)Math.Pow(4,1) },
-        //    {(int)Math.Pow(2,2), (int)Math.Pow(3,2), (int)Math.Pow(4,3) },
-        //    {(int)Math.Pow(2,3), (int)Math.Pow(3,3), (int)Math.Pow(4,3) },
+            {(int)Math.Pow(2,1), (int)Math.Pow(3,1), (int)Math.Pow(4,1) },
+            {(int)Math.Pow(2,2), (int)Math.Pow(3,2), (int)Math.Pow(4,3) },
+            {(int)Math.Pow(2,3), (int)Math.Pow(3,3), (int)Math.Pow(4,3) },
 
-        //};
+        };
 
-        //double[][] arrayArray = new double[3][]
-        //{
-        //    new double[5]{1 ,2,3,4,5},
-        //    new double[2]{Math.E, Math.PI },
-        //    new double[4]{Math.Log10(1), Math.Log10(10), Math.Log10(100), Math.Log10(1000) }
-        //};
+        double[][] arrayArray = new double[3][]
+        {
+            new double[5]{1 ,2,3,4,5},
+            new double[2]{Math.E, Math.PI },
+            new double[4]{Math.Log10(1), Math.Log10(10), Math.Log10(100), Math.Log10(1000) }
+        };
 
 
 
@@ -106,7 +106,6 @@ public static class Programm
         Array.Copy(array, array2, 3);
         Console.WriteLine(string.Join(" ", array2));
 
-        string[] sample = { "", "" };
 
         Array.Resize(ref array, 10);
         Console.WriteLine(string.Join(" ", array));

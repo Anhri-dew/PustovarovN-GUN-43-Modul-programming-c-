@@ -6,6 +6,7 @@
     <RootNamespace>Modul_programing_C_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Modul_programing_C_.Homework_cycle</StartupObject>
   </PropertyGroup>
 
 </Project>
